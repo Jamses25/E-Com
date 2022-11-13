@@ -1,17 +1,6 @@
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto&family=Roboto+Mono&family=Sofia&display=swap');
-
-:root{
-    --grey:#2b3032a1;
-    --primary:#45ccb8;
-    --border:#2b303218;
-    --text:#ff686b;
-    --roboto:"Roboto",sans-serif;
-    --gugi:'Gugi', cursive;
-    --anton:'Anton', sans-serif;
-    --lato:'Lato', sans-serif;
-    --sofia:'Sofia', cursive;
-}
+/*
 .font{
 font-family: 'Anton', sans-serif;
 font-family: 'Gugi', cursive;
@@ -19,4 +8,22 @@ font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace;
 font-family: 'Sofia', cursive;
+}
+*/
+header{
+    background-color: rgb(171, 58, 17);
+    color: blanchedalmond;
+}
+.btn-text-color{
+    color: blanchedalmond!important;
+}
+.dropdown-menu{
+    background-color: rgb(195, 78, 35)!important;
+
+}
+.header-links:hover{
+    text-decoration: none!important;
+}
+header .site-title{
+    font-family: 'Gugi', cursive;
 }
