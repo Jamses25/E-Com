@@ -21,9 +21,27 @@ header{
     background-color: rgb(195, 78, 35)!important;
 
 }
-.header-links:hover{
+.header-links a{
     text-decoration: none!important;
 }
 header .site-title{
     font-family: 'Gugi', cursive;
+}
+.container .dropdown-toggle,
+.container .dropdown-list{
+    font-size: 0.9em;
+}
+.navbar-nav .fas{
+    color: rgb(36, 36, 36);
+    font-size: 0.9em;
+}
+.navbar-nav .basket-icon{
+    margin-right: 3.5rem!important;
+
+}
+.navbar-nav{
+    padding: 0.6em 0em;
+}
+.navbar-nav .nav-link {
+    padding: 0 1.3em!important;
 }
