@@ -1,5 +1,10 @@
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto&family=Roboto+Mono&family=Sofia&display=swap');
+html{
+    margin: 0!important;
+    padding: 0!important;
+    overflow-x: hidden!important;
+}
 /*
 .font{
 font-family: 'Anton', sans-serif;
@@ -10,15 +15,16 @@ font-family: 'Roboto Mono', monospace;
 font-family: 'Sofia', cursive;
 }
 */
+
 header{
-    background-color: rgb(171, 58, 17);
+    background-color: #2874f0;
     color: blanchedalmond;
 }
 .btn-text-color{
     color: blanchedalmond!important;
 }
 .dropdown-menu{
-    background-color: rgb(195, 78, 35)!important;
+    background-color: #2874f0!important;
 
 }
 .header-links a{
@@ -44,4 +50,199 @@ header .site-title{
 }
 .navbar-nav .nav-link {
     padding: 0 1.3em!important;
+    transition: 0.5s ease!important;
+}
+.carousel-inner img{
+    cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2874f0!important;
+}
+.navbar-light .navbar-nav .nav-item :hover {
+    color: #2874f0!important;
+}
+#heading{
+    font-family: 'Anton', sans-serif;
+
+}
+
+.service-icon{
+    font-size: 2rem;
+    background: #9b9999;
+    color: #fdbe02;
+    margin-bottom: 1rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.service-icon .fa-indian-rupee-sign{
+    padding: 0.5rem 0.5rem;
+}
+
+.container h1 span.pro-heading {
+    color: #2874f0!important;
+}
+.product{
+
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior:smooth;
+    gap: 1.9rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    
+}
+.product::-webkit-scrollbar{
+    display: none;
+}
+.product-card{
+    scroll-snap-align: start;
+    border-radius: 0.2rem;
+    min-height: 15rem;
+    min-width: 12rem;
+    text-align: center;
+    border: 1px solid rgb(148, 146, 146);
+    box-shadow: 0px 0px 2px 1px rgb(171, 169, 169);
+    cursor: pointer;
+    background-color: rgba(236, 253, 253, 0.581);
+
+}
+
+.product-img{
+    height: 10rem;
+    width: 10rem;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+}
+.product-name:hover{
+    color: #2874f0;
+}
+.pro-btn{
+    background-color: #2874f0!important;
+    color: white!important;
+    transition: 0.5s ease!important;
+}
+.pro-btn:hover{
+    background-color: #5390f4!important;
+   
+}
+.banner .banner-image{
+    position: absolute;
+    margin-top: 50px;
+}
+.banner .content{
+    position: relative;
+    top:5rem;
+    text-align: center;
+    padding-top: 8rem;
+}
+.banner .content h1{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+.banner .content p{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+#bannerbtn button{
+    width: 150px;
+    height: 38px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+#bannerbtn button:hover{
+    background-color: #5390f4;
+    border: none;
+}
+.container .item-product{
+    margin-top: 9rem;
+}
+
+
+.container .trending-card{
+    background-color: rgba(236, 253, 253, 0.581);    position: relative;
+    overflow: hidden;
+    border: 1px solid rgb(148, 146, 146);
+    box-shadow: 0px 0px 2px 1px rgb(171, 169, 169);
+    cursor :pointer;
+    text-align: center;
+    margin-right: auto;
+    min-width: 13rem;
+}
+
+.trending-store-link{
+    background: #2874f0;
+    color: white;
+    position: absolute;
+    top: 74%;
+    right: 0%;
+    padding: 0.2rem 0.4rem;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(251%);
+    cursor: pointer;
+}
+.trending-store-link:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #5390f4!important;
+}
+.container .trending-card:hover .trending-store-link{
+    transform: translate(-60%,150% );
+}
+.trending-card .trending-body .star{
+    color: #fdbe02;
+}
+.container .trending-card .trending-body h4{
+    margin-bottom: 2rem;
+}
+.btn-view{
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem 0.8rem;
+    background-color: #2874f0;
+    color: white;
+    transition: 0.5s ease-out;
+}
+.btn-view:hover{
+    background-color: #5390f4;
+}
+.partners{
+    background: rgba(0, 0, 0, 0.1);
+}
+.carousel-control-prev{
+    font-size: 2rem;
+    transform: translateX(-200%);
+    color: black;
+}
+.carousel-control-next{
+    font-size: 2rem;
+    transform: translateX(200%);
+    color: black;
+}
+
+.footer-title{
+    padding: 0.4rem;
+    border: 0.2rem solid #2874f0;
+    color: #2874f0;
+}
+.footer-icon{
+    color:#2874f0;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+.footer-icon:hover{
+    color:#5390f4;
+}
+.contact-icon{
+    color: #2874f0
 }
