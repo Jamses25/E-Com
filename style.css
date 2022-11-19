@@ -5,17 +5,7 @@ html{
     padding: 0!important;
     overflow-x: hidden!important;
 }
-/*
-.font{
-font-family: 'Anton', sans-serif;
-font-family: 'Gugi', cursive;
-font-family: 'Lato', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Sofia', cursive;
-}
-*/
-
+/* Header Section */
 header{
     background-color: #2874f0;
     color: blanchedalmond;
@@ -39,10 +29,10 @@ header .site-title{
 }
 .navbar-nav .fas{
     color: rgb(36, 36, 36);
-    font-size: 0.9em;
+    font-size: .9em;
 }
 .navbar-nav .basket-icon{
-    margin-right: 3.5rem!important;
+    margin-right: .5rem!important;
 
 }
 .navbar-nav{
@@ -66,7 +56,7 @@ header .site-title{
     font-family: 'Anton', sans-serif;
 
 }
-
+/* Services Icon */
 .service-icon{
     font-size: 2rem;
     background: #9b9999;
@@ -84,6 +74,7 @@ header .site-title{
 .container h1 span.pro-heading {
     color: #2874f0!important;
 }
+/* Features Product X-Scroll */
 .product{
 
     display: grid;
@@ -130,6 +121,7 @@ header .site-title{
     background-color: #5390f4!important;
    
 }
+/* banner */
 .banner .banner-image{
     position: absolute;
     margin-top: 50px;
@@ -164,6 +156,7 @@ header .site-title{
     background-color: #5390f4;
     border: none;
 }
+/* Trending Products */
 .container .item-product{
     margin-top: 9rem;
 }
@@ -197,7 +190,7 @@ header .site-title{
     background-color: #5390f4!important;
 }
 .container .trending-card:hover .trending-store-link{
-    transform: translate(-60%,150% );
+    transform: translateY(150% );
 }
 .trending-card .trending-body .star{
     color: #fdbe02;
@@ -216,6 +209,7 @@ header .site-title{
 .btn-view:hover{
     background-color: #5390f4;
 }
+/* Partners Slider */
 .partners{
     background: rgba(0, 0, 0, 0.1);
 }
@@ -229,7 +223,7 @@ header .site-title{
     transform: translateX(200%);
     color: black;
 }
-
+/* Footer Section */
 .footer-title{
     padding: 0.4rem;
     border: 0.2rem solid #2874f0;
