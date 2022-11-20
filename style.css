@@ -1,7 +1,13 @@
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto&family=Roboto+Mono&family=Sofia&display=swap');
 *{
-   overflow-x: hidden!important;
+    overflow-x: auto;
+}
+.overflow-x{
+    overflow-x:hidden!important;
+}
+.overflow-y{
+    overflow-y:hidden!important;
 }
 /* Header Section */
 header{
@@ -126,7 +132,7 @@ header .site-title{
 }
 .banner .content{
     position: relative;
-    top:5rem;
+    top:0rem;
     text-align: center;
     padding-top: 8rem;
 }
