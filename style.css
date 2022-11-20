@@ -1,9 +1,7 @@
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto&family=Roboto+Mono&family=Sofia&display=swap');
-html{
-    margin: 0!important;
-    padding: 0!important;
-    overflow-x: hidden!important;
+*{
+   overflow-x: hidden!important;
 }
 /* Header Section */
 header{
